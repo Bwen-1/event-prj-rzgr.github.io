@@ -1,0 +1,65 @@
+<html lang="ru" style="overflow: hidden">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <style>
+            .first {
+                padding:10px;
+                border-radius:20px;
+                background:white;
+                z-index:2;
+                font-family:'Open Sans', serif;
+                font-weight:700;
+                font-size:30px;
+                max-width:300px;
+            }
+            .two {
+                margin-top:10px;
+                padding:15px;
+                border-radius:20px;
+                background:white;
+                z-index:2;
+                font-family:'Open Sans', serif;
+                font-weight:500;
+                font-size:20px;
+                max-width:600px;
+            }
+            .grad {
+                background:linear-gradient(-20deg, rgb(110, 20, 255), rgb(255, 45, 38));
+                border-radius:20px;
+                height:320px;
+                width:50px;
+                border:2px dashed white;
+            }
+            .org {
+                border-radius:35px;
+                padding:12px;
+                background-color:white;
+                font-family:'Open Sans', serif;
+                font-weight:700;
+                font-size:30px;
+                margin-left:20px;
+                max-width:240px;
+            }
+        </style>
+    </head>
+    <body style="margin:0;background-color: black;">
+        <div class="bg" style="position:absolute;top:0%;">
+            <img src="bg.jpg" style="filter:blur(5px);width:100vw;z-index:1;"></img>
+        </div>
+        <div class="main" style="margin-top:20%;display:flex;justify-content:center;align-items:center;">
+            <div class="block1" style="z-index:2">
+                <div class="first"><span style="color:black">Ивент "Снайперы"</span></div>
+                <div class="two"><span style="color:rgb(29, 29, 29)">Игроки разбегаются по карте и после команды они начинают сражаться друг с другом. Но у них есть цель, им нужно убить определённую цель. Игроки могут кооперироваться чтобы убить цель, но победа за считается только тому, кто её убил. Цель в свою очередь может убивать игроков, если на неё напали. Игрок который убил цель получает роль "Разрешение на VoiceMod и Soundpad" на дискорд сервере.</span></div>
+            </div>
+            <div class="void" style="z-index:2;margin-left:15px;">
+                <div class="grad"></div>
+            </div>
+            <div class="block2" style="z-index:2;margin-left:15px;">
+                <div class="org"><span style="color:black">Организаторы</span></div>
+                <img class="orgs" src="lad.png" style="height:240px"></img>
+            </div>
+        </div>
+    </body>
+</html>
